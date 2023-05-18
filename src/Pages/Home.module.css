@@ -1,0 +1,76 @@
+@import "https://unpkg.com/open-props";
+
+body{
+    /* background-image: url("../Img/fundo-1.png"); */
+    background-color: #edd38c;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.tudo {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    padding: 80px;
+    font-size: 30px;
+}
+
+.titulo {
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    margin-right: 122px;
+}
+
+.titulo h2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 35px;
+}
+
+.titulo h3 {
+    background-color: #423511;
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
+    font: 18px "Nunito", sans-serif;
+    letter-spacing: 1px;
+    padding: 1.15em 3.5em;
+    box-shadow: 5px 5px 5px #000000;
+    width: 210px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.titulo h3:hover{
+    color: #edd38c;
+    opacity: 0.8;
+    transform: scale(1.1);
+    transition: all 0.8s;
+}
+
+
+.img img {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    height: 450px;
+    width: 450px;
+} 
+
+@media screen and (max-width: 1040px) {
+    .tudo {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+/* body {
+    background: url(../Img/quadrado.png);
+} */

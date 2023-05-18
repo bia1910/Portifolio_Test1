@@ -1,0 +1,71 @@
+.tudo {
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px;
+}
+
+.tudo h1 {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 100;
+}
+
+.tudo h2 {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 100;
+    padding: 10px;
+}
+
+.form {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 100;
+}
+
+.formLinhas input {
+    height: 38px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.form form input{
+    width: 80vh;
+    font-weight: 100;
+}
+
+.formMsg {
+    padding-top: 5px;
+}
+
+.formMsg textarea {
+    width: 80vh;
+    height: 150px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.formBtn input {
+    font-weight: 100;
+    background-color: #423511;
+    border-radius: 50px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font: 18px "Nunito", sans-serif;
+    letter-spacing: 1px;
+    padding: 1.15em 3.5em;
+    box-shadow: 5px 5px 5px #423511;
+}
+
+.formBtn input:hover{
+    color: #edd38c;
+    opacity: 0.8;
+    transform: scale(1.1);
+    transition: all 0.8s;
+}

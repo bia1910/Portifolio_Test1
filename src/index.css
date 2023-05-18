@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+  /* background-image: url('../Img/fundo-1.png'); */
+}
+
+h1, p, a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+

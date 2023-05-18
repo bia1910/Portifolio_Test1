@@ -1,0 +1,87 @@
+img {
+    text-align: center;
+}
+
+.title {
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px;
+}
+
+.title h1 {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 100;
+}
+
+.title h2 {
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 100;
+    padding-top: 10px;
+}
+
+.projetos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -40px;
+}
+
+.projetosETEC img {
+    text-align: center;
+}
+
+.projetosETEC {
+    width: 30%;
+    margin: 30px;
+}
+
+.projetosETEC h1{
+    font-size: 28px;
+    font-weight: 100;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.projetosETEC h2 {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.imgLoc img {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    height: 150px;
+    width: 230px;
+}
+
+.imgPort {
+    text-align: center;
+}
+
+.imgPort img {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1040px) {
+    .projetos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 15px;
+    }
+}
